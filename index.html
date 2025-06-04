@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lavkush's Weather APP</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>🌤️ Lavkush’s Weather APP</h1>
+    <p>Get real-time weather updates for any city in India</p>
+
+    <div class="search-box">
+      <input type="text" placeholder="Enter city name..." />
+      <button><i class="fas fa-search"></i> Search</button>
+    </div>
+
+    <div class="weather-card hidden">
+      <div class="left">
+        <h2 class="city">City Name</h2>
+        <h1 class="temp">--°C</h1>
+        <p class="description">--</p>
+      </div>
+      <div class="right">
+        <div class="info">
+          <p>🌡️ Feels Like</p>
+          <h3 class="feels">--°C</h3>
+        </div>
+        <div class="info">
+          <p>💧 Humidity</p>
+          <h3 class="humidity">--%</h3>
+        </div>
+        <div class="info">
+          <p>🌬️ Wind Speed</p>
+          <h3 class="wind">-- m/s</h3>
+        </div>
+        <div class="info">
+          <p>✔️ Pressure</p>
+          <h3 class="pressure">-- hPa</h3>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      Created by❤️Lavkush Kumar Weather data from OpenWeatherMap
+    </div>
+  </div>
+  
+  <!-- Font Awesome for icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  
+</body>
+</html>
